@@ -26,7 +26,7 @@ sequenceDiagram
     deactivate server
 
     Note right of browser: The browser executes the callback function that renders the notes
-    Note right of browser: The user write text in the note input and click the save button
+    Note right of browser: The user writes text in the note input and clicks the save button
     browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/notes/new_note
     activate server
     server-->>browser: result HTTP 302
